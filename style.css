@@ -1,0 +1,103 @@
+body {
+  font-family: "Jost", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 35px;
+}
+h2 {
+  font-size: 30px;
+}
+.half {
+  width: 50%;
+  padding: 3%;
+}
+.container {
+  display: flex;
+  padding: 5%;
+}
+.container img {
+  width: 80%;
+}
+.title {
+  border-left: 7px solid red;
+}
+.t-t {
+  color: red;
+}
+.link-btn {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(red, black);
+  padding: 10px 40px;
+}
+.mid {
+  text-align: center;
+}
+.item-container {
+  display: flex;
+  width: 100%;
+}
+.item-container img {
+  width: 40%;
+}
+.item-container div {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.card {
+  border-radius: 10px;
+  padding: 5%;
+}
+.mission {
+  background-color: aquamarine;
+}
+.vision {
+  background-color: rgb(105, 128, 128);
+}
+.goals {
+  background-color: burlywood;
+}
+/* parts begin here! */
+.part-3 {
+  display: flex;
+  background-image: url(./images/shapes/shape-1.png);
+  background-position: left;
+  background-size: 30%;
+  background-repeat: no-repeat;
+}
+.part-3 img {
+  width: 30%;
+  margin-left: 2%;
+}
+.part-4 {
+  display: flex;
+  background-image: url(./images/shapes/shape-1.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 15%;
+}
+.part-4 img {
+  width: 30%;
+  margin-left: 2%;
+}
+/* last part start here! */
+.last {
+  display: flex;
+  padding: 5%;
+}
+.last img {
+  width: 30%;
+}
+.last-img {
+  background-image: url(./images/shapes/shape-2.png);
+  background-position: top left;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  margin-right: 13%;
+}
+/* footer */
+footer {
+  background-color: rgb(129, 122, 122);
+}
