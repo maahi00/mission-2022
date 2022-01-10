@@ -16,6 +16,7 @@ h2 {
 .container {
   display: flex;
   padding: 5%;
+  margin-bottom: 75px;
 }
 .container img {
   width: 80%;
@@ -34,6 +35,9 @@ h2 {
 }
 .mid {
   text-align: center;
+}
+.sec-2 {
+  margin-bottom: 75px;
 }
 .item-container {
   display: flex;
@@ -66,6 +70,7 @@ h2 {
   background-position: left;
   background-size: 30%;
   background-repeat: no-repeat;
+  margin-bottom: 75px;
 }
 .part-3 img {
   width: 30%;
@@ -77,6 +82,7 @@ h2 {
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: 15%;
+  margin-bottom: 75px;
 }
 .part-4 img {
   width: 30%;
